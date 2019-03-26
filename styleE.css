@@ -8,3 +8,16 @@ h1{
     text-align: center;
     color: white;
 }
+
+.video-section{
+  width: 800px;
+  height: 100px;
+  top: 100px;
+}
+
+.container{
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: 580px;
+}
