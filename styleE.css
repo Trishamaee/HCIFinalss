@@ -1,12 +1,39 @@
 body {
-  padding:0; margin:0;
-   background-image: url(   http://www.14denoviembre.es/img/hori.png ), url( http://www.14denoviembre.es/img/stars_5.png );
+  padding:0;
+  margin:0;
+  color: white;
+  background-image: url(   http://www.14denoviembre.es/img/hori.png ), url( http://www.14denoviembre.es/img/stars_5.png );
 }
 
 h1{
-	margin-top: 30px;
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
+  font-size: 250px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  background: black;
+}
+
+h2{
+	top: 1000px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+h3{
+  font-size: 50px;
+}
+
+.box-container{
+  width: 1090px;
+  height: 2500px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  
 }
 
 .video-section{
@@ -21,6 +48,7 @@ h1{
   height: 500px;
   left: 580px;
 }
+
 
 .sidenav {
   height: 100%;
